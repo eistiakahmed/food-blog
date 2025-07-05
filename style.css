@@ -1,5 +1,5 @@
 *{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -39,7 +39,7 @@ h1 {
     font-size: 30px;
     background-position: center;
     position: relative;
-    padding: 10px;
+    padding: 2px;
 }
 
 .back h3, .back p{
@@ -76,38 +76,84 @@ h1 {
 
 .food-card{
     display: flow-root;
-    background-color: rgb(235, 233, 233);
+    background-color: rgb(250, 247, 247);
     padding: 20px;
     margin: 30px;
-    /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.686); */
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.686);
 }
 
-
-.food-card2 img{
-      width: 300px;
-      height: 300px;
-      border-radius: 20px;
-      margin-right: 20px;
-      object-fit: cover;
-      padding: 10px;
-      display: flex;
-
-
-}
-
-.food-card3 {
-    display: flex;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 20px;
-
-}
-.info h3 {
-     margin: 0;
-     font-size: 40px;
-}
-
-.info p {
+.art{
+    background-color: coral;
+    text-align: center;
+    border-top: 50px solid blue;
+    border-radius: 10px;
+    font-size: 24px;
+    box-sizing: content-box;
     margin: 10px;
-    font-size: 30px;
+    padding: 10px;
+    width: 455px;
+    height: 300px;
+    float: left;
+    box-shadow: 10px 10px 10px rgb(64, 63, 63);
+}
+.art2{
+    background-color: coral;
+    text-align: center;
+    border-top: 50px solid blue;
+    border-radius: 10px;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    width: 455px;
+    height: 300px;
+    float: left;
+    box-sizing: content-box;
+    box-shadow: 10px 10px 10px rgb(64, 63, 63);
+}
+.art3{
+    background-color: coral;
+    text-align: center;
+    border-top: 50px solid blue;
+    border-radius: 10px;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    width: 455px;
+    height: 300px;
+    float:left;
+    box-sizing: content-box;
+    box-shadow: 10px 10px 10px rgb(64, 63, 63);
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* max-width: 1000px; */
+    margin: auto;
+}
+
+.place-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.place-card img {
+    width: 200px;
+    height: 10opx; 
+}
+.place-card p {
+    margin: 10px;
+    font-weight: bold;
+
 }
